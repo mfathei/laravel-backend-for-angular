@@ -18,4 +18,5 @@
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
+    # RewriteRule ^(.*)$ /public/app/index.html/$1 [PT,L]
 </IfModule>
